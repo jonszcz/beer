@@ -1,0 +1,87 @@
+{
+  "name": "#1 Summer Elderflower Saison",
+  "style": "Saison",
+  "brewer": "gnadlaf",
+  "batchSize": 20,
+  "boilSize": 25.06,
+  "boilTime": 60,
+  "efficiency": 0.75,
+  "hops": [
+    {
+      "name": "Citra (US)",
+      "aa": 0.13,
+      "amount": 10,
+      "use": "Boil",
+      "time": 60,
+      "form": "Pellet"
+    },
+    {
+      "name": "Citra (US)",
+      "aa": 0.13,
+      "amount": 10,
+      "use": "Boil",
+      "time": 30,
+      "form": "Pellet"
+    },
+    {
+      "name": "Citra (US)",
+      "aa": 0.13,
+      "amount": 10,
+      "use": "Boil",
+      "time": 15,
+      "form": "Pellet"
+    }
+  ],
+  "fermentables": [
+    {
+      "name": "Viking Pilsner Malt",
+      "amount": 4,
+      "color": 2,
+      "yield": 0.7989635068019865,
+      "mashed": true
+    },
+    {
+      "name": "Maris Otter Pale Ale Malt",
+      "amount": 1,
+      "color": 2,
+      "yield": 0.777369898510041,
+      "mashed": true
+    },
+    {
+      "name": "Wheat Malt, White",
+      "amount": 0.5,
+      "color": 2,
+      "yield": 0.8421507233858777,
+      "mashed": true
+    }
+  ],
+  "additions": [
+    {
+      "name": "Elderflowers",
+      "time": 1,
+      "use": "Boil",
+      "amount": "30 L"
+    },
+    {
+      "name": "Elderflowers",
+      "time": 20,
+      "use": "Boil",
+      "amount": "30 L"
+    },
+    {
+      "name": "Elderflowers",
+      "time": 30,
+      "use": "Boil",
+      "amount": "30 L"
+    }
+  ],
+  "yeast": {
+    "name": "Belgian Style Saison Ale Yeast Blend",
+    "type": "Ale",
+    "lab": "White Labs",
+    "attenuation": 0.75
+  },
+  "ibu": null,
+  "color": 4.2,
+  "abv": null
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Manny's Clone v1",
+  "style": "American Pale Ale",
+  "brewer": "Jon Szczesniak",
+  "batchSize": 18.9270589,
+  "boilSize": 24.60517657,
+  "boilTime": 60,
+  "efficiency": 0.75,
+  "hops": [
+    {
+      "name": "Magnum (US)",
+      "aa": 0.14,
+      "amount": 0.0170097,
+      "use": "Boil",
+      "time": 60,
+      "form": "Pellet"
+    },
+    {
+      "name": "Cascade (US)",
+      "aa": 0.055,
+      "amount": 0.01417475,
+      "use": "Boil",
+      "time": 15,
+      "form": "Pellet"
+    },
+    {
+      "name": "Cascade (US)",
+      "aa": 0.055,
+      "amount": 0.007087375,
+      "use": "Boil",
+      "time": 5,
+      "form": "Pellet"
+    },
+    {
+      "name": "Cascade (US)",
+      "aa": 0.055,
+      "amount": 0.007087375,
+      "use": "Boil",
+      "time": 1,
+      "form": "Pellet"
+    },
+    {
+      "name": "Cascade (US)",
+      "aa": 0.055,
+      "amount": 0.0283495,
+      "use": "Dry Hop",
+      "time": "4 days",
+      "form": "Pellet"
+    }
+  ],
+  "fermentables": [
+    {
+      "name": "Liquid Malt Extract - Pilsen",
+      "amount": 2.7215542200000002,
+      "color": 2,
+      "yield": 0.7557762902180954,
+      "mashed": true
+    },
+    {
+      "name": "Caramel/Crystal 20L (US)",
+      "amount": 0.90718474,
+      "color": 20,
+      "yield": 0.7557762902180954,
+      "mashed": true
+    },
+    {
+      "name": "Carapils (Dextrine Malt) (US)",
+      "amount": 0.45359237,
+      "color": 1,
+      "yield": 0.7125890736342042,
+      "mashed": true
+    }
+  ],
+  "additions": [],
+  "yeast": {
+    "name": "Thames Valley Ale",
+    "type": "Ale",
+    "lab": "Wyeast",
+    "attenuation": 0.77
+  },
+  "ibu": null,
+  "color": 7.5,
+  "abv": null
+}
